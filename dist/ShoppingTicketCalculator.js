@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class ShoppingTicketCalculator {
+    calculate(checkinDate, checkoutDate) {
+        const period = (checkoutDate.getTime() - checkinDate.getTime()) / (1000 * 60 * 60);
+        let amount = 0;
+        if (checkinDate.getHours() >= 12 && checkoutDate.getHours() <= 14) {
+            amount = 0;
+        }
+        else {
+            amount = period * 3;
+        }
+        return amount;
+    }
+}
+exports.default = ShoppingTicketCalculator;

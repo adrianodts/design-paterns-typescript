@@ -1,0 +1,28 @@
+{
+  "name": "design-paterns-typescript",
+  "version": "1.0.0",
+  "description": "Design paterns using typescript",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianodts/design-paterns-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianodts/design-paterns-typescript/issues"
+  },
+  "homepage": "https://github.com/adrianodts/design-paterns-typescript#readme",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.2.0"
+  }
+}
