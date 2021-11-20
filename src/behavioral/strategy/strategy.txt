@@ -1,4 +1,0 @@
-Definição:
-
-O design pattern Strategy define uma familia de algoritimos, encapsula cada um deles e os torna intercambiáveis.
-O Strategy deixa o algoritimo variar independente dos clientes que o utilizam.
