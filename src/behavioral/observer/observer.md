@@ -89,3 +89,7 @@ public class SubjectData extends Subject{
     }
 }
 ```
+
+*fonte*
+
+https://pt.wikipedia.org/wiki/Observer

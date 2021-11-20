@@ -121,3 +121,8 @@ Segue um exemplo em Java onde o valor de comissão difere de acordo com o cargo 
         }
     }
 ```
+
+
+*fonte*
+
+https://pt.wikipedia.org/wiki/Strategy
